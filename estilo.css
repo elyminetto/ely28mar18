@@ -1,7 +1,27 @@
-main{
-margin-left:5%;	
-margin-right:5%;	
-}
-li{
-display: in line	
-}
+* {
+            text-align:center;
+            font-family:courier, "courier new";
+            }
+            body {
+                background: linear-gradient(lightgreen, #e1f7d5);
+                background-repeat: repeat-x;
+            }
+            main, nav, header{
+                margin-left:10%;
+                margin-right:10%;
+            }
+            li{
+                display:inline;
+                padding-left:5%;
+                padding-right:5%
+            }
+            ul{
+                background-color:#c9c9ff;
+                overflow: hidden;
+            }
+            a:hover{
+                background-color:green;
+            }
+			html{
+				height: 100%;
+			}
